@@ -89,6 +89,15 @@
     }
 }
 
+.getstarted {
+  text-decoration: none;
+  color: #ff3753;
+}
+
+.getstarted:hover {
+  color: #fff;
+}
+
 .here {
   height: 100%;
   width: 100%;
@@ -184,7 +193,7 @@
   left: 12px;
 }
 
-span {
+#chech-box {
   color:  #777;
   font-size: 12px;
   bottom: 68px;
