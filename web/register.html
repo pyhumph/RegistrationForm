@@ -27,12 +27,16 @@
          <button type="submit" class="submit-btn">Log in</button>
       </form> -->
 
-      <form id="login" class="input-group">
-        <input type="text" class="input-field" placeholder="First Name" required>
-        <input type="email" class="input-field" placeholder="Last Name" required>
+      <form id="register" class="input-group">
+        <input type="text" id="firstName" class="input-field" placeholder="First Name" required>
+        <input type="text" id="lastName" class="input-field" placeholder="Last Name" required>
+        <input type="text" class="input-field" id="new_user" name="new_user" placeholder="Username" required>
+        <input type="password" id="newPasswd" class="input-field" name="password" placeholder="New Password" required>
+        <input type="password" id="confPasswd" class="input-field" name="password" placeholder="Confirm Password" required>
         <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
         <button type="submit" class="submit-btn">Register</button>
      </form>
+     <h4 id="terminateSms"></h4>
 
     </div>
  

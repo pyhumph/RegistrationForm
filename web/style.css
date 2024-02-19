@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: Poppins;
-  src: url(./font/Poppins/Poppins-Regular.ttf) format('ttf');
+  src: url(../font/Poppins/Poppins-Regular.ttf) format('ttf');
 }
 
 .container {
   width: 85vw;
   height: 100vh;
-  background-image: url(./images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);
+  background-image: url(../images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);
   background-position: center;
   background-size: cover;
   padding: 0 8%;
@@ -98,7 +98,7 @@
   color: #fff;
 }
 
-.here {
+.hero {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
@@ -109,7 +109,7 @@
 
 .form-box {
   width: 380px;
-  height: 480px;
+  height: 540px;
   position: relative;
   margin: 6% auto;
   background: #FFF;
@@ -212,6 +212,6 @@
 }
 
 #register {
-  left: 450px;
+  left: 50px;
   /* overflow: hidden; */
 }
